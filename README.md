@@ -10,8 +10,6 @@ Currently, two official plugins are available:
 
 A feature-rich to-do application built with React, offering task management with completion, starring, and visual cues.
 
-![Screenshot of the app - Main View](screenshots/main-view.png)
-![Screenshot of the app - Completed Task](screenshots/completed-task.png)
 
 ## Features
 
