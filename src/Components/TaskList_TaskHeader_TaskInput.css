@@ -1,0 +1,150 @@
+.task-list-container {
+    min-width: 300px;
+    max-width: 100%;
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+    font-family: 'Outfit', sans-serif;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .task-header {
+    padding: 4px 0;
+  }
+  
+  .header-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 0;
+  }
+  
+  .header-label span {
+    color: #76b878;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  
+  .task-input-section {
+    background-color: #2f3630;
+    padding: 16px 0;
+    margin-bottom: 16px;
+  }
+  
+  .input-container {
+    padding: 42px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  
+  .input-container h2 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+  }
+  
+  .input-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icon-group {
+    display: flex;
+    gap: 26px;
+  }
+  
+  .icon-group img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .add-task-btn {
+    background-color: #347136;
+    color: #cfcfcf;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .tasks-section {
+    padding: 24px 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    border-bottom: 1px solid #496e4b33;
+    min-height: 24px;
+  }
+  
+  .task-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .checkbox {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .checkbox img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .task-item span {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .star-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .completed span {
+    text-decoration: line-through;
+  }
+  
+  .completed-header {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    .task-item {
+      padding: 16px;
+    }
+  
+    .input-container {
+      padding: 20px;
+    }
+  
+    .add-task-btn {
+      padding: 8px;
+    }
+  }
+  
+  
+  

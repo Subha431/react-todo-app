@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 48px;
+    background-color: #1f1f1f;
+    min-width: 768px;
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .logomark {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .brand-text {
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.96px;
+    color: #3d8d40;
+  }
+  
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .header-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .header-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.5px;
+    background-color: #000000;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 12px 24px;
+    }
+  
+    .brand-text {
+      font-size: 20px;
+    }
+  
+    .menu-icon, .header-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  
